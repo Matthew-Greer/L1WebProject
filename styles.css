@@ -4,7 +4,7 @@ html {
 }
 
 * {
-    padding: 10px;
+    padding: 0.5%;
     margin: 0px;
 }
 
@@ -27,6 +27,7 @@ img {
     align-self: center;
     margin-left: 47%;
     margin-right: 44%;
+    width: 8%;
 }
 
 nav {
@@ -41,7 +42,7 @@ nav a {
     text-decoration: none;
     display: inline-block;
     color: white;
-    margin: 1% 10%;
+    margin: 1% 5%;
     font-size: 2.3vh;
     color: white;
     font-family: "lucida console", courier,  monospace;
@@ -130,7 +131,7 @@ h2 {
 
 h3 {
    color: white;
-   font-size: 15px;
+   font-size: 1.5vh;
    text-align: center;
 
 }
@@ -146,20 +147,14 @@ h3 {
 
 .vl {
   border-left: 20px solid black;
-  height: 60%;
+  height: 52%;
   position: absolute;
   left: 50%;
   margin-left: 11%;
-  top: 35%;
+
 }
 
-.footer {
-  width: 99%;
-  height: 50%;
-  background-color: black;
-  margin-top: 30%;
-  
-}
+
 
 .pageIn {
     color: maroon;
@@ -194,7 +189,7 @@ h5{
   position: absolute;
   left: 1%;
   margin-left: 1px;
-  top: 36%;
+
 }
 
 .vl2 {
@@ -202,7 +197,6 @@ h5{
   height: 62%;
   position: absolute;
   left: 97.9%;
-  top: 36%;
   margin-right: 5px;
 }
 
