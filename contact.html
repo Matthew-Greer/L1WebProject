@@ -1,0 +1,96 @@
+<!doctype html>
+
+<head>
+    <title>Resistance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Clan_Insignia.png">
+    <meta charset="UTF-8">
+    <script>
+        var answers = ['Duck and Roll', 'Climb a tree', 'Evacuate Bowels'];
+
+        function testing() {
+            var rand = Math.floor(Math.random() * answers.length);
+
+
+            document.getElementById('text').innerHTML = answers[rand]
+        }
+
+    </script>
+
+    <script>
+        setInterval(imgChanger, 2000);
+
+        var imgs = ['images/city1.jpg', 'images/city2.jpg', 'images/city3.jpg']
+
+        var i = 0;
+
+        function imgChanger() {
+            document.getElementById('imgSlide').src = imgs[i];
+            i++;
+            if (i > 2) {
+                i = 0;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <img class="logo" src="images/Clan_Insignia.png" width="150" alt="logo" >
+    <nav>
+
+        <div style="text-align: center"></div>
+        <a href="info.html">Alien Information</a>
+        <a href="index.html">Resistance Information</a>
+        <a class="pageIn" href="contact.html">Contact Us</a>
+    </nav>
+    <section id="section-left">
+        <ul>
+            <li class="contactP">
+                <img id="imgSlide" src="images/city.jpg" alt="city">
+            </li>
+            <li class="lll">
+                <h2>
+                    Our Camps
+                </h2>
+                <h4>
+                    We have camps situated all around the remaining areas of the world. To find the camp closest to your location refer to the list below.  
+                </h4>
+                <br>
+                <h4 class="countries">
+                <a class="camps" href="https://www.indefiniteadventure.com/wp-content/uploads/2014/01/europe_blank_map.jpg">- Europe</a> 
+                <br>
+                <a class="camps" href="https://dnlzsmybcpo0z.cloudfront.net/games/images/map_img_939285_1473976277.jpg">- North America</a>
+                <br>
+                <a class="camps" href="https://www.abc.net.au/cm/rimage/11915166-1x1-xlarge.jpg?v=2">- Asia</a>
+                <br>
+                <a class="camps" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/World_Heritage_Sites_Africa_map-2.svg/1200px-World_Heritage_Sites_Africa_map-2.svg.png">- Africa</a>
+                <br>
+                <a class="camps" href="https://lh3.googleusercontent.com/proxy/0TIGi2v-O6oHvqmYwVkCZAR7R-9fQPoTMmwq24mMtnMbe-RzObANN-fSA4Fgh96XjXSWV_RG2KRCXUAvWhdi0lbqObm-s5RpLuNYylZ1D4H12-t3EpnOXEn0K8mBP6q5mdtCEA">- Oceania</a>
+                </h4>
+            </li>
+
+        </ul>
+    </section>
+    <div class="vl"></div>
+    <section id="section-right">
+        
+            <h2>Why To Join Us</h2>
+            <h4>With the current state of the world, you ARE in danger, and we want to help you. With the help of our camps resources you will be able to survive this apocalypse and help us rebuild.
+            <br>
+            Our camps offer many supplies such as food, water, gear, shelter and medicine.  
+            <br>
+            At all our camps we assure you safety as we carry out routine perimeter sweeps and have guards and lookouts stationed around the clock.
+            <br>
+            We hope you find this message and are able to join us to create a brighter future together.
+            </h4>
+            <h5>
+                Signed
+                <br>
+                Resistance Founder
+            </h5>
+            <img src="images/signature.png" class="signature" alt="signature">
+    </section>
+
+    <div class="footer"></div>
